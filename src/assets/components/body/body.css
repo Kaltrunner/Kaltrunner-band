@@ -1,0 +1,15 @@
+
+.main-body-div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101820;
+}
+
+.header-text {
+    color: whitesmoke;
+    font-size: 6vw;
+    letter-spacing: .25em;
+    mix-blend-mode: difference;
+}
