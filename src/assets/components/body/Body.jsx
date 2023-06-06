@@ -1,22 +1,24 @@
 import "./body.css";
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect } from "react";
+import Header from "../header/Header";
 
 function Body() {
+  const vidRef = useRef(null);
 
-    const vidRef = useRef(null);
-
-    useEffect(() => {
-        if (vidRef.current) {
-          vidRef.current.playbackRate = 0.1;
-        }
-      }, []);
+  useEffect(() => {
+    if (vidRef.current) {
+      vidRef.current.playbackRate = 0.1;
+    }
+  }, []);
 
   return (
     <>
       <div className="main-body-div">
-        <div className="overlay" ></div>
+        <Header />
+        <div className="overlay"></div>
+
         <video
-         ref={vidRef}
+          ref={vidRef}
           id="bg-vid"
           src="Untitled.mp4"
           type="video/mp4"

@@ -38,7 +38,6 @@ function App() {
           ".link",
         ]}
       />
-
       <Routes>
         <Route path="/" element={<Body />} />
       </Routes>

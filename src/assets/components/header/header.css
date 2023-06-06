@@ -1,0 +1,72 @@
+
+.header-body-div {
+    top: 0;  
+    background: transparent;
+    position: fixed;
+    z-index: 10;
+}
+
+#nav-bar {
+    width: 100vw;
+    background-color: transparent;
+   display: flex;
+   justify-content: flex-end
+}
+
+.navbar-brand {
+    color: whitesmoke;
+    font-size: 1.5vw;
+}
+
+#nav-links {
+    font-size: 1.5vw;
+    margin-right: 5vw;
+    color: whitesmoke;
+    padding: 0;
+}
+
+.navbar-toggler {
+    color: whitesmoke;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: transparent!important;
+}
+
+.under-line {
+    color: whitesmoke;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+  }
+  .under-line::before {
+    content: '';
+    position: absolute;
+    width: 4.5em;
+    height: 2px;
+    bottom: 0;
+    left: auto;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: all .35s ease-in-out;
+  }
+  .under-line:hover::before {
+    background-color: whitesmoke;
+    transform-origin: left;
+    transform: scaleX(1);
+    text-align: center;
+  }
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: flex-end;
+    }
+}
+
+.clock {
+    font-size: 1.5vw;
+    margin-left: 4vw;
+}
