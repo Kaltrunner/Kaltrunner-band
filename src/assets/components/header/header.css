@@ -1,16 +1,15 @@
 
 .header-body-div {
     top: 0;  
-    background: transparent;
     position: fixed;
-    z-index: 10;
+    z-index: 50;
 }
 
 #nav-bar {
     width: 100vw;
     background-color: transparent;
-   display: flex;
-   justify-content: flex-end
+    display: flex;
+    justify-content: flex-end
 }
 
 .navbar-brand {
@@ -34,6 +33,30 @@
     background-color: transparent!important;
 }
 
+.about-under-line {
+    color: whitesmoke;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+  }
+  .about-under-line::before {
+    content: '';
+    position: absolute;
+    width: 3.35em;
+    height: 2px;
+    bottom: 0;
+    left: auto;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: all .35s ease-in-out;
+  }
+  .about-under-line:hover::before {
+    background-color: whitesmoke;
+    transform-origin: left;
+    transform: scaleX(1);
+    text-align: center;
+  }
+
 .under-line {
     color: whitesmoke;
     position: relative;
@@ -43,7 +66,7 @@
   .under-line::before {
     content: '';
     position: absolute;
-    width: 4.5em;
+    width: 4.6em;
     height: 2px;
     bottom: 0;
     left: auto;
@@ -56,6 +79,32 @@
     transform-origin: left;
     transform: scaleX(1);
     text-align: center;
+  }
+
+  .album-under-line {
+    color: whitesmoke;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    transition: all .35s ease-in-out;
+  }
+  .album-under-line::before {
+    content: '';
+    position: absolute;
+    width: 5.45em;
+    height: 2px;
+    bottom: 0;
+    left: auto;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: all .35s ease-in-out;
+  }
+  .album-under-line:hover::before {
+    background-color: whitesmoke;
+    transform-origin: left;
+    transform: scaleX(1);
+    text-align: center;
+    transition: all .35s ease-in-out;
   }
 
 @media (min-width: 992px) {

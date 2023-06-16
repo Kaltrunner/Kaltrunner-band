@@ -1,0 +1,41 @@
+
+.body-about-section {
+    position: relative;
+    width: 100%;
+    height: 72vh;
+    margin-top: 32vh;
+    margin-bottom: 32vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.about-h6-text {
+    color: whitesmoke;
+    font-size: 1.15vw;
+    letter-spacing: .25vw;
+    font-style: italic;
+    font-weight: 200;
+}
+
+#col-80 {
+    text-align: left;
+    color: whitesmoke;
+    font-size: 3vw;
+    letter-spacing: .15vw;
+    line-height: 5vh;
+    margin-bottom: 8vh;
+}
+
+#col-40 {
+    color: aliceblue;
+    text-align: left;
+    font-size: 1.75vw;
+    letter-spacing: .25vw;
+    line-height: 3vh;
+}
+
+.bottom {
+    margin-bottom: 32vh;
+}

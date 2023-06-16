@@ -3,6 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Body from "./assets/components/body/Body";
+import AlbumArt from "./assets/components/albumart/AlbumArt";
+import Footer from "./assets/components/footer/Footer";
 
 function App() {
   return (
@@ -40,6 +42,8 @@ function App() {
       />
       <Routes>
         <Route path="/" element={<Body />} />
+        <Route path="/AlbumArt" element={<AlbumArt />} />
+        <Route path="/Footer" element={<Footer />} />
       </Routes>
     </>
   );

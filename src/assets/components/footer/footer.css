@@ -1,0 +1,56 @@
+
+.footer-body-div { 
+    height: 36vh;
+    width: 100%;
+    background-color: transparent;
+    z-index: 10;
+    position:absolute;  
+    right:0;
+    border-top: 1px solid rgba(255,255,255,.4) ;
+    display: flex;
+    align-items: center;
+}
+
+/* .line-div {
+    height: 4px;
+    width: 90%;
+    color: whitesmoke;
+    align-items: center;
+    z-index: 9;
+} */
+
+.footer-col-1 {
+    color: grey;
+    font-size: .85vw;
+    line-height: 6vh;
+}
+
+.footer-col-text {
+    color: whitesmoke;
+    font-size: 1.5vw;
+}
+
+.row {
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-link {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all ease-in-out .25s;
+}
+
+#footer-link:hover {
+    color: grey;
+    transition: all ease-in-out .25s;
+}
+
+#copy-text {
+    color: whitesmoke;
+    font-size: 1vw;
+    letter-spacing: .25vw;
+    font-weight: 200;
+}

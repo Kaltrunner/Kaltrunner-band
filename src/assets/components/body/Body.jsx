@@ -1,6 +1,8 @@
 import "./body.css";
 import React, { useRef, useEffect } from "react";
 import Header from "../header/Header";
+import About from "../about/About";
+import Footer from "../footer/Footer";
 
 function Body() {
   const vidRef = useRef(null);
@@ -15,6 +17,7 @@ function Body() {
     <>
       <div className="main-body-div">
         <Header />
+
         <div className="overlay"></div>
 
         <video
@@ -30,6 +33,11 @@ function Body() {
           <h1 className="header-text">Kaltrunner</h1>
         </div>
       </div>
+      <section id="section-about">
+        <About />
+      </section>
+
+      <Footer />
     </>
   );
 }

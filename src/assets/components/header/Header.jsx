@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./header.css";
 import Clock from "../clock/Clock";
 
@@ -21,12 +22,7 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a
-                  className="nav-link under-line"
-                  id="nav-links"
-                  aria-current="page"
-                  href="#"
-                >
+                <a className="nav-link about-under-line" id="nav-links" href="#section-about">
                   ABOUT
                 </a>
               </li>
@@ -34,15 +30,20 @@ function Header() {
                 <a
                   className="nav-link under-line"
                   id="nav-links"
-                  href="mailto:erikrussells@gmail.com?subject=Hello!"
+                  href="mailto:kaltrunnerband@gmail.com?subject=Hello!"
                 >
                   CONTACT
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link under-line" id="nav-links" href="#">
+                <Link
+                  to="/AlbumArt"
+                  className="nav-link album-under-line"
+                  id="nav-links"
+                  href="#"
+                >
                   ALBUM ART
-                </a>
+                </Link>
               </li>
               <li className="nav-item clock" id="nav-links">
                 <Clock />

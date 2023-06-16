@@ -3,20 +3,13 @@
     background-color: whitesmoke;
   }
 
-* {
-    cursor: none; 
-    /* margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100vh; */
-}
-
 html {
     --scrollbarBG: #000;
     --thumbBG: #fa8072cc;
   }
   body::-webkit-scrollbar {
-    width: 12px;
+    /* width: 12px; */
+    display: none;
   }
 
   body {

@@ -29,8 +29,9 @@
 
 .header-text {
     color: whitesmoke;
-    font-size: 6vw;
-    letter-spacing: .15em;
+    font-size: 10vw;
+    font-weight: 400;
+    letter-spacing: .15vw;
     z-index: 99;
     mix-blend-mode: difference;
 }
@@ -42,4 +43,16 @@ video {
     animation-play-state: inherit;
     filter: blur(8px);
     position: fixed;
+}
+
+.footer-div {
+    position:absolute;
+   bottom:0;
+   left: 0;
+   width:100%;
+}
+
+#section-about {
+    position: relative;
+    padding-top: 10vh;
 }

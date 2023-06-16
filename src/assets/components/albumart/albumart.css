@@ -1,0 +1,25 @@
+
+.album-art-body-div {
+    height: 100%;
+    width: 100%;
+    background-color: #101010;
+    padding: 6vw;
+    /* overflow: auto; */
+}
+
+.album-art-header {
+    font-size: 10vw;
+    color: #fa8072cc;
+    text-align: center;
+    padding: 4rem;
+}
+
+.album-title {
+    color: whitesmoke;
+    font-size: 1.15vw;
+    letter-spacing: .25vw;
+    font-style: italic;
+    font-weight: 200;
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+}
