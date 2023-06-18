@@ -7,7 +7,7 @@ function Header() {
     <div className="header-body-div">
       <nav className="navbar navbar-expand-lg bg-body-tertiary" id="nav-bar">
         <div className="container-fluid">
-          <p className="navbar-brand">[ ]</p>
+          <p className="navbar-brand"></p>
           <button
             className="navbar-toggler"
             type="button"
@@ -22,7 +22,12 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link about-under-line" id="nav-links" href="#section-about">
+                <a
+                  className="nav-link about-under-line active"
+                  aria-current="page"
+                  id="nav-links"
+                  href="#section-about"
+                >
                   ABOUT
                 </a>
               </li>

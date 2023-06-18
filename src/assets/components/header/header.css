@@ -2,7 +2,7 @@
 .header-body-div {
     top: 0;  
     position: fixed;
-    z-index: 50;
+    z-index: 99;
 }
 
 #nav-bar {
@@ -20,17 +20,24 @@
 #nav-links {
     font-size: 1.5vw;
     margin-right: 5vw;
+    margin-top: 2.5vh;
     color: whitesmoke;
     padding: 0;
 }
 
-.navbar-toggler {
+.navbar-toggler-icon {
+    background-color: whitesmoke;
     color: whitesmoke;
+    border-radius: 8px;
 }
 
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
     background-color: transparent!important;
+}
+
+.navbar-toggler {
+  color: whitesmoke;
 }
 
 .about-under-line {
@@ -42,7 +49,7 @@
   .about-under-line::before {
     content: '';
     position: absolute;
-    width: 3.35em;
+    width: 3.3em;
     height: 2px;
     bottom: 0;
     left: auto;
@@ -66,7 +73,7 @@
   .under-line::before {
     content: '';
     position: absolute;
-    width: 4.6em;
+    width: 4.5em;
     height: 2px;
     bottom: 0;
     left: auto;
@@ -91,7 +98,7 @@
   .album-under-line::before {
     content: '';
     position: absolute;
-    width: 5.45em;
+    width: 5.40em;
     height: 2px;
     bottom: 0;
     left: auto;

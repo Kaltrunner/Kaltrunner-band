@@ -1,7 +1,7 @@
 
 .footer-body-div { 
     height: 36vh;
-    width: 100%;
+    width: 100vw;
     background-color: transparent;
     z-index: 10;
     position:absolute;  
@@ -10,14 +10,6 @@
     display: flex;
     align-items: center;
 }
-
-/* .line-div {
-    height: 4px;
-    width: 90%;
-    color: whitesmoke;
-    align-items: center;
-    z-index: 9;
-} */
 
 .footer-col-1 {
     color: grey;
