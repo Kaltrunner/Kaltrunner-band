@@ -10,7 +10,7 @@ function AlbumArt() {
     <div className="album-art-body-div">
       <ScrollToTop />
       <AlbumNav />
-      <h1 className="album-art-header">Album art</h1>
+      <h1 className="album-art-header">ALBUM ART</h1>
 
       <Container>
         <Row>
