@@ -2,11 +2,13 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import AlbumNav from "../albumNav/AlbumNav";
+import { ScrollToTop } from 'react-router-scroll-to-top';
 import "./albumart.css";
 
 function AlbumArt() {
   return (
     <div className="album-art-body-div">
+      <ScrollToTop />
       <AlbumNav />
       <h1 className="album-art-header">Album art</h1>
 
@@ -146,6 +148,7 @@ function AlbumArt() {
             /></Col>
       </Row> */}
       </Container>
+      
     </div>
   );
 }

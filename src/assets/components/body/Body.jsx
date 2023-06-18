@@ -3,6 +3,7 @@ import React, { useRef, useEffect } from "react";
 import Header from "../header/Header";
 import About from "../about/About";
 import Footer from "../footer/Footer";
+import { ScrollToTop } from 'react-router-scroll-to-top';
 
 function Body() {
   const vidRef = useRef(null);
@@ -15,6 +16,7 @@ function Body() {
 
   return (
     <>
+    <ScrollToTop />
       <div className="main-body-div">
         <Header />
 
@@ -38,6 +40,7 @@ function Body() {
       </section>
 
       <Footer />
+      
     </>
   );
 }
