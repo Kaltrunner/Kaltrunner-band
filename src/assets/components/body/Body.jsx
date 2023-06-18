@@ -32,7 +32,7 @@ function Body() {
           muted
         />
         <div className="body-text-div">
-          <h1 className="header-text">Kaltrunner</h1>
+          <h1 className="header-text">KALTRUNNER</h1>
         </div>
       </div>
       <section id="section-about">
