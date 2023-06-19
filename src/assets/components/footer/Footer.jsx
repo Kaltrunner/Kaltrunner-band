@@ -8,7 +8,7 @@ function Footer() {
         <div className="row">
           <div className="col footer-col-1">FALLOW</div>
           <div className="col footer-col-1">CONTACT</div>
-          <div className="col footer-col-1"></div>
+          <div className="col footer-col-1">PURCHASE</div>
         </div>
         <div className="row">
           <div className="col footer-col-text">
@@ -31,7 +31,14 @@ function Footer() {
               KALTRUNNERBAND@GMAIL.COM
             </a>
           </div>
-          <div className="col footer-col-text"></div>
+          <div className="col footer-col-text"><a
+              id="footer-link"
+              target="_blank"
+              className="nav-link"
+              href="https://www.aurisapothecary.org/shop/kaltrunner-dirteater-ii/"
+            >
+              AURISAPOTHECARY.ORG
+            </a></div>
         </div>
         <div className="row">
           <div className="col footer-col-text">

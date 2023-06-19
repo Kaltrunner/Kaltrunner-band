@@ -126,3 +126,7 @@
     font-size: 1.5vw;
     margin-left: 4vw;
 }
+
+a {
+  mix-blend-mode: difference;
+}
