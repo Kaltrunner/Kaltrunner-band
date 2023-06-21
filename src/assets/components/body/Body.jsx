@@ -3,10 +3,14 @@ import React, { useRef, useEffect } from "react";
 import Header from "../header/Header";
 import About from "../about/About";
 import Footer from "../footer/Footer";
-import { ScrollToTop } from 'react-router-scroll-to-top';
+import { ScrollToTop } from "react-router-scroll-to-top";
 
 function Body() {
   const vidRef = useRef(null);
+
+  function play() {
+    new Audio("Site-song.mp3").play();
+  }
 
   useEffect(() => {
     if (vidRef.current) {
@@ -16,7 +20,7 @@ function Body() {
 
   return (
     <>
-    <ScrollToTop />
+      <ScrollToTop />
       <div className="main-body-div">
         <Header />
 
@@ -33,6 +37,9 @@ function Body() {
         />
         <div className="body-text-div">
           <h1 className="header-text">KALTRUNNER</h1>
+          <button className="play-button" onClick={play}>
+            <h6 className="header-text-h6">(↗ PLAY)</h6>
+          </button>
         </div>
       </div>
       <section id="section-about">
@@ -40,7 +47,6 @@ function Body() {
       </section>
 
       <Footer />
-      
     </>
   );
 }

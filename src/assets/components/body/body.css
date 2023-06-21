@@ -25,6 +25,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+   
 }
 
 .header-text {
@@ -34,6 +36,24 @@
     letter-spacing: .15vw;
     z-index: 99;
     mix-blend-mode: difference;
+}
+
+.header-text-h6 {
+    color: whitesmoke;
+    font-size: 2vw;
+    font-weight: 200;
+    letter-spacing: .15rem;
+    z-index: 99;
+    mix-blend-mode: difference;
+    padding: 0;
+}
+
+.play-button {
+    text-align: center;
+    z-index: 99;
+    border: none;
+    margin-left: 65%;
+    background-color: transparent;
 }
 
 video {
