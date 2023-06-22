@@ -14,7 +14,7 @@ function Body() {
 
   useEffect(() => {
     if (vidRef.current) {
-      vidRef.current.playbackRate = 0.1;
+      vidRef.current.playbackRate = 0.25;
     }
   }, []);
 

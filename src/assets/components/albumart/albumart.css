@@ -9,6 +9,8 @@
 
 .album-art-header {
     font-size: 10vw;
+    font-weight: 400;
+    letter-spacing: .15vw;
     color: #fa8072cc;
     text-align: center;
     padding: 4rem;
