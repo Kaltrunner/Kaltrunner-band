@@ -2,7 +2,8 @@
 .header-body-div {
     top: 0;  
     position: fixed;
-    z-index: 99;
+    z-index: 999;
+    mix-blend-mode: difference;
 }
 
 #nav-bar {
@@ -19,8 +20,10 @@
 }
 
 #nav-links {
-    font-size: 1.5vw;
-    margin-right: 5vw;
+    font-size: 2vw;
+    font-weight: 200;
+    letter-spacing: .15rem;
+    margin-right: 2.5vw;
     margin-top: 2.5vh;
     color: whitesmoke;
     padding: 0;
@@ -50,7 +53,7 @@
   .about-under-line::before {
     content: '';
     position: absolute;
-    width: 3.3em;
+    width: 3.5em;
     height: 2px;
     bottom: 0;
     left: auto;
@@ -74,7 +77,7 @@
   .under-line::before {
     content: '';
     position: absolute;
-    width: 4.5em;
+    width: 4.85em;
     height: 2px;
     bottom: 0;
     left: auto;
@@ -99,7 +102,7 @@
   .album-under-line::before {
     content: '';
     position: absolute;
-    width: 5.40em;
+    width: 5.9em;
     height: 2px;
     bottom: 0;
     left: auto;
@@ -124,6 +127,5 @@
 }
 
 .clock {
-    font-size: 1.5vw;
-    margin-left: 4vw;
+    margin-left: 2vw;
 }

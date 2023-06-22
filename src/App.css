@@ -5,10 +5,10 @@
     background-color: whitesmoke;
   }
 
-html {
+/* html {
     --scrollbarBG: #000;
     --thumbBG: #fa8072cc;
-  }
+  } */
   body::-webkit-scrollbar {
     /* width: 12px; */
     display: none;
