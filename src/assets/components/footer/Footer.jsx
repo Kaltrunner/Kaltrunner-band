@@ -6,7 +6,7 @@ function Footer() {
       <div className="line-div"></div>
       <div className="container text-center">
         <div className="row">
-          <div className="col footer-col-1">FALLOW</div>
+          <div className="col footer-col-1">FOLLOW</div>
           <div className="col footer-col-1">CONTACT</div>
           <div className="col footer-col-1">PURCHASE</div>
         </div>

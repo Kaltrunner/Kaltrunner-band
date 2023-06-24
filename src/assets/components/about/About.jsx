@@ -45,7 +45,7 @@ function About() {
             id="col-40"
           >
             <br />
-            <h6 className="about-h6-text">WHY SHIS SOUND ?</h6>
+            <h6 className="about-h6-text">WHY THIS SOUND ?</h6>
             <br />
             The choice of this unique and experimental sound by KALTRUNNER
             arises from a deep passion for sonic exploration. By wielding an

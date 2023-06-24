@@ -125,3 +125,7 @@
     justify-content: flex-end;
     }
 }
+
+.clock {
+  margin-left: 2vw;
+}
