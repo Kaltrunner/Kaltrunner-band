@@ -8,15 +8,14 @@ function About() {
           <div className="col-" id="col-80">
             <h6 className="about-h6-text">WHO IS KALTRUNNER ?</h6>
             <br />
-            KALTRUNNER, the artistic alias of noise producer Erik Russell, is an
-            experimental musician who delves into the realm of sonic
+            KALTRUNNER, the artistic alias of noise producer Erik Russell, who
+            is an experimental musician who delves into the realm of sonic
             exploration. Armed with an array of analog equipment such as drones,
             oscillators, effects pedals, and various other instruments,
             KALTRUNNER crafts compositions that traverse the boundaries of noise
-            and ambient soundscapes. Through his unique sonic approach, he
-            constructs dense and immersive auditory experiences characterized by
-            a juxtaposition of oppressive dissonance and ethereal
-            weightlessness.
+            and ambient soundscapes. Through his unique approach, he constructs
+            dense and immersive auditory experiences characterized by a
+            juxtaposition of oppressive dissonance and ethereal weightlessness.
           </div>
           <div className="col-sm-4"></div>
         </div>
@@ -30,9 +29,9 @@ function About() {
             <br />
             <h6 className="about-h6-text">WHAT IS MY APPROACH ?</h6>
             <br />
-            Breaking free from traditional structures. Through a diverse array
-            of analog instruments, he explores the primal essence of sound,
-            crafting intricate sonic tapestries. This innovative approach pushes
+            Breaking free from traditional structures. Through a array of analog
+            instruments, he explores the primal essence of sound, crafting
+            intricate audio tapestries. This innovative approach pushes
             boundaries and immerses listeners in an otherworldly realm, evoking
             the enigmatic melodies and ethereal atmospheres of outer space.
           </div>
@@ -48,8 +47,8 @@ function About() {
             <h6 className="about-h6-text">WHY THIS SOUND ?</h6>
             <br />
             The choice of this unique and experimental sound by KALTRUNNER
-            arises from a deep passion for sonic exploration. By wielding an
-            array of analog equipment, KALTRUNNER fearlessly traverses the
+            arises from a deep passion for sonic exploration. By wielding a
+            mostly analog equipment, KALTRUNNER fearlessly traverses the
             boundaries between noise and ambient soundscapes, crafting
             compositions that defy traditional musical structures. By embracing
             the raw power of sound itself, he creates intricate and
