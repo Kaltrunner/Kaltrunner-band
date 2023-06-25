@@ -51,12 +51,6 @@
     transition: all 1s ease-in;
 }
 
-/* @media(prefers-reduced-motion) {
-    .hidden {
-        transition: none;
-    }
-} */
-
 .show {
     opacity: 1;
     filter: blur(0);
