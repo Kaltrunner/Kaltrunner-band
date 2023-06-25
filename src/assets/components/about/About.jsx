@@ -1,11 +1,26 @@
 import "./about.css";
 
 function About() {
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      // console.log(entry)
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      } else {
+        entry.target.classList.remove("show");
+      }
+    });
+  });
+
+  const hiddenElement = document.querySelectorAll(".hidden");
+  hiddenElement.forEach((element) => observer.observe(element));
+
   return (
     <div className="body-about-section">
       <div className="container text-center">
         <div className="row">
-          <div className="col-" id="col-80">
+          <div className="col- hidden" id="col-80">
             <h6 className="about-h6-text">WHO IS KALTRUNNER ?</h6>
             <br />
             KALTRUNNER, the artistic alias of noise producer Erik Russell, who
@@ -23,7 +38,7 @@ function About() {
           <div className="col-sm"></div>
           <div className="col-sm"></div>
           <div
-            className="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0"
+            className="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0 hidden"
             id="col-40"
           >
             <br />
@@ -40,7 +55,7 @@ function About() {
           <div className="col-sm"></div>
           <div className="col-sm"></div>
           <div
-            className="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0 bottom"
+            className="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0 bottom hidden"
             id="col-40"
           >
             <br />

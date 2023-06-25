@@ -44,3 +44,20 @@
 .bottom {
     margin-bottom: 32vh;
 }
+
+.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s ease-in;
+}
+
+/* @media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+} */
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+}
