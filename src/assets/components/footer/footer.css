@@ -1,6 +1,6 @@
 
 .footer-body-div { 
-    height: 36vh;
+    height: 40vh;
     width: 100vw;
     background-color: transparent;
     z-index: 10;
@@ -14,12 +14,13 @@
 .footer-col-1 {
     color: grey;
     font-size: .85vw;
-    line-height: 6vh;
+    line-height: 2;
 }
 
 .footer-col-text {
     color: whitesmoke;
     font-size: 1.5vw;
+    line-height: 2;
 }
 
 .row {
