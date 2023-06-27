@@ -15,15 +15,11 @@ function AlbumArt() {
       <Container>
         <Row>
           <Col md={3}>
-          <img
-              id="art"
-              src=""
-              alt=""
-            />
+            <img id="art" src="" alt="" />
             <h6 className="album-title">COMING SOON...</h6>
           </Col>
           <Col md={{ span: 4, offset: 4 }}>
-          <img
+            <img
               id="art"
               src="https://f4.bcbits.com/img/a3079473660_2.jpg"
               alt=""
@@ -33,15 +29,15 @@ function AlbumArt() {
         </Row>
         <Row>
           <Col md={3}>
-          <img
+            <img
               id="art"
               src="https://f4.bcbits.com/img/a3002864667_2.jpg"
               alt=""
             />
-            <h6 className="album-title">GENISIS –  5/1/2020</h6>
+            <h6 className="album-title">GENISIS – 5/1/2020</h6>
           </Col>
           <Col md={{ span: 4, offset: 4 }}>
-          <img
+            <img
               id="art"
               src="https://f4.bcbits.com/img/a2317917187_2.jpg"
               alt=""
@@ -61,7 +57,7 @@ function AlbumArt() {
           </Col>
 
           <Col md={{ span: 4, offset: 4 }}>
-          <img
+            <img
               id="art"
               src="https://f4.bcbits.com/img/a1824821676_2.jpg"
               alt=""
@@ -71,7 +67,7 @@ function AlbumArt() {
         </Row>
         <Row>
           <Col md={3}>
-          <img
+            <img
               id="art"
               src="https://f4.bcbits.com/img/a2729017100_2.jpg"
               alt=""
@@ -80,19 +76,20 @@ function AlbumArt() {
           </Col>
 
           <Col md={{ span: 4, offset: 4 }}>
-          <img
+            <img
               id="art"
               src="https://f4.bcbits.com/img/a1492645822_2.jpg"
               alt=""
             />
             <h6 className="album-title">
-              TOGETHER WE ARE ONE (A LIVE RECORDING) KALTRUNNER + JOEL HENLINE – 12/21/2018
+              TOGETHER WE ARE ONE (A LIVE RECORDING) KALTRUNNER + JOEL HENLINE –
+              12/21/2018
             </h6>
           </Col>
         </Row>
         <Row>
           <Col md={3}>
-          <img
+            <img
               id="art"
               src="	https://f4.bcbits.com/img/a1232231586_2.jpg"
               alt=""
@@ -101,7 +98,7 @@ function AlbumArt() {
           </Col>
 
           <Col md={{ span: 4, offset: 4 }}>
-          <img
+            <img
               id="art"
               src="	https://f4.bcbits.com/img/a0616623960_2.jpg"
               alt=""
@@ -111,7 +108,7 @@ function AlbumArt() {
         </Row>
         <Row>
           <Col md={3}>
-          <img
+            <img
               id="art"
               src="https://f4.bcbits.com/img/a2344627094_2.jpg"
               alt=""
@@ -119,7 +116,7 @@ function AlbumArt() {
             <h6 className="album-title">TRANSMISSION – B – 6/30/2018</h6>
           </Col>
           <Col md={{ span: 4, offset: 4 }}>
-          <img
+            <img
               id="art"
               src="https://f4.bcbits.com/img/a0681219287_2.jpg"
               alt=""
