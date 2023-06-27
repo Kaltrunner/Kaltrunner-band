@@ -18,7 +18,7 @@ function App() {
         innerScale={0.5}
         outerScale={0.5}
         hasBlendMode={true}
-        trailingSpeed={10}
+        trailingSpeed={12}
         innerStyle={{
           mixBlendMode: "difference",
         }}
