@@ -11,6 +11,7 @@
     margin-right: 5vw;
     color: whitesmoke;
     padding: 0;
+    cursor: pointer !important;
 }
 
 .nav-under-line {
