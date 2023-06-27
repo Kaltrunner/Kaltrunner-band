@@ -39,6 +39,7 @@
 #footer-link:hover {
     color: grey;
     transition: all ease-in-out .25s;
+    cursor: pointer !important;
 }
 
 #copy-text {

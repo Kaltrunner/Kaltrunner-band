@@ -14,10 +14,10 @@
     justify-content: flex-end
 }
 
-.navbar-brand {
+/* .navbar-brand {
     color: whitesmoke;
     font-size: 1.5vw;
-}
+} */
 
 #nav-links {
     font-size: 2vw;
@@ -27,6 +27,7 @@
     margin-top: 2.5vh;
     color: whitesmoke;
     padding: 0;
+    cursor:  pointer !important;
 }
 
 .navbar-toggler-icon {

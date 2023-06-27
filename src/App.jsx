@@ -11,14 +11,14 @@ function App() {
     <>
       <AnimatedCursor
         id="mouse"
-        innerSize={110}
-        outerSize={0}
+        innerSize={0}
+        outerSize={110}
         color="255, 255, 255"
-        outerAlpha={0.1}
+        outerAlpha={.9}
         innerScale={0.5}
-        outerScale={0}
+        outerScale={0.5}
         hasBlendMode={true}
-        trailingSpeed={15}
+        trailingSpeed={10}
         innerStyle={{
           mixBlendMode: "difference",
         }}

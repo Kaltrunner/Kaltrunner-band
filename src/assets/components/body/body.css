@@ -46,6 +46,7 @@
     z-index: 99;
     mix-blend-mode: difference;
     padding: 0;
+    cursor: pointer;
 }
 
 .play-button {
