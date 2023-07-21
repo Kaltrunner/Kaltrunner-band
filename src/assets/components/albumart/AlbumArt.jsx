@@ -94,7 +94,7 @@ function AlbumArt() {
               src="	https://f4.bcbits.com/img/a1232231586_2.jpg"
               alt=""
             />
-            <h6 className="album-title">TRANSMISSION – X – 11/23/2018</h6>
+            <h6 className="album-title">TRANSMISSION X – 11/23/2018</h6>
           </Col>
 
           <Col md={{ span: 4, offset: 4 }}>
@@ -113,7 +113,7 @@ function AlbumArt() {
               src="https://f4.bcbits.com/img/a2344627094_2.jpg"
               alt=""
             />
-            <h6 className="album-title">TRANSMISSION – B – 6/30/2018</h6>
+            <h6 className="album-title">TRANSMISSION B – 6/30/2018</h6>
           </Col>
           <Col md={{ span: 4, offset: 4 }}>
             <img
@@ -121,7 +121,7 @@ function AlbumArt() {
               src="https://f4.bcbits.com/img/a0681219287_2.jpg"
               alt=""
             />
-            <h6 className="album-title">TRANSMISSION – A – 6/29/2018</h6>
+            <h6 className="album-title">TRANSMISSION A – 6/29/2018</h6>
           </Col>
         </Row>
         <Row>
