@@ -1,4 +1,4 @@
-import {useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 import AnimatedCursor from "react-animated-cursor";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
@@ -6,28 +6,28 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Body from "./assets/components/body/Body";
 import AlbumArt from "./assets/components/albumart/AlbumArt";
 import Footer from "./assets/components/footer/Footer";
-import LoadingScreen from "./assets/components/loadingScreen/LoadingScreen";
+// import LoadingScreen from "./assets/components/loadingScreen/LoadingScreen";
 
 function App() {
+  // const [isLoading, setIsLoading] = useState(true);
+  // const [isLoaded, setIsLoaded] = useState(false);
 
-  const [isLoading, setIsLoading] = useState(true);
-  const [isLoaded, setIsLoaded] = useState(false);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 3000);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 3000);
+  //   setTimeout(() => {
+  //     setIsLoaded(true);
+  //   }, 370);
+  // }, []);
 
-    setTimeout(() => {
-      setIsLoaded(true);
-    }, 3700);
-  }, []);
-
-  return isLoading ? (
-    <LoadingScreen />
-  ) : (
+  return (
+    // isLoading ? (
+    //   <LoadingScreen />
+    // ) : (
     <>
-    <div className={`app-content ${isLoaded ? "fade-in" : ""}`}>
+      {/* <div className={`app-content ${isLoaded ? "fade-in" : ""}`}> */}
       <AnimatedCursor
         id="mouse"
         innerSize={0}
@@ -62,7 +62,7 @@ function App() {
         <Route path="/AlbumArt" element={<AlbumArt />} />
         <Route path="/Footer" element={<Footer />} />
       </Routes>
-      </div>
+      {/* </div> */}
     </>
   );
 }
