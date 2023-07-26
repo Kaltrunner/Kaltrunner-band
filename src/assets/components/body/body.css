@@ -40,7 +40,7 @@
 
 .header-text-h6 {
     color: whitesmoke;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: 200;
     letter-spacing: .15rem;
     z-index: 99;
@@ -75,5 +75,17 @@ video {
 
 #section-about {
     position: relative;
-    padding-top: 12vw;
+    padding-top: 12vh;
 }
+
+@media only screen and (max-width: 480px){
+    .header-text { 
+    font-size: 3rem;
+    }
+    .header-text-h6 {
+      font-size: 1rem;
+  }
+  #section-about {
+    padding-top: 6vh;
+  }
+  }

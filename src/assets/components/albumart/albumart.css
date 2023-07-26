@@ -1,10 +1,11 @@
 
 .album-art-body-div {
-    height: 100%;
     width: 100%;
     background-color: #101010;
     padding: 6vw;
-    /* overflow: auto; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .album-art-header {
@@ -13,7 +14,7 @@
     letter-spacing: .15vw;
     color: #fa8072cc;
     text-align: center;
-    padding: 4rem;
+    margin: 4rem;
 }
 
 .album-title {
@@ -24,4 +25,21 @@
     font-weight: 200;
     margin-top: 2vh;
     margin-bottom: 6vh;
+}
+
+#art {
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 480px) {
+    .album-art-body-div {
+        display: block;
+    }
 }

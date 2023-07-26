@@ -71,6 +71,7 @@ function Footer() {
           <div className="col footer-col" id="copy-text">
             ©2023 –{" "}
             <a
+              className="port-link"
               id="footer-link"
               target="_blank"
               rel="noreferrer"

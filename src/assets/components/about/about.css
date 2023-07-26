@@ -18,7 +18,6 @@
     font-style: italic;
     font-weight: 200;
     margin: 0;
-
 }
 
 #col-80 {
@@ -26,7 +25,7 @@
     color: whitesmoke;
     font-size: 3vw;
     letter-spacing: .15vw;
-    line-height: 5vh;
+    line-height: 1.25;
     margin-bottom: 10vh;
     font-weight: 300;
 }
@@ -36,7 +35,7 @@
     text-align: left;
     font-size: 1.75vw;
     letter-spacing: .25vw;
-    line-height: 3vh;
+    line-height: 1.25;
     font-weight: 300;
     margin-bottom: 4vh;
 }
@@ -54,4 +53,27 @@
 .show {
     opacity: 1;
     filter: blur(0);
+}
+
+@media only screen and (min-width: 2400px) {
+    .body-about-section {
+        margin-top: 124vh;
+        margin-bottom: 124vh;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .body-about-section {
+        margin-top: 42vh;
+        margin-bottom: 32vh;
+    }
+    .about-h6-text {
+        font-size: 1rem;
+    }
+    #col-80 {
+        font-size: 1.5rem;
+    }
+    #col-40 {
+        font-size: 1rem;
+    }
 }

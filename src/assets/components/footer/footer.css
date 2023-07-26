@@ -3,7 +3,7 @@
     height: 40vh;
     width: 100vw;
     background-color: transparent;
-    z-index: 10;
+    z-index: 100;
     position:absolute;  
     right:0;
     border-top: 1px solid rgba(255,255,255,.4) ;
@@ -42,9 +42,42 @@
     cursor: pointer !important;
 }
 
+.port-link {
+    border-bottom: 1px solid whitesmoke;
+    padding: .15em;
+    transition: all .15s ease-in-out;
+}
+
+.port-link:hover {
+    border-bottom: 1px solid transparent;
+    transition: all .15s ease-in-out;
+}
+
 #copy-text {
     color: whitesmoke;
     font-size: 1vw;
     letter-spacing: .25vw;
     font-weight: 200;
+}
+
+@media only screen and (min-width: 2400px) {
+    .footer-col-text {
+        font-size: 1.5rem;
+    }
+    #copy-text {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .footer-col-1 {
+        font-size: .75rem;
+    }
+    .footer-col-text {
+        font-size: .45rem;
+        line-height: 2;
+    }
+    #copy-text {
+        font-size: .45rem;
+    }
 }
