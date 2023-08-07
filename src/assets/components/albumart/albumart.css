@@ -40,6 +40,10 @@
 
 @media only screen and (max-width: 480px) {
     .album-art-body-div {
-        display: block;
+        display: grid;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
     }
+  
 }
