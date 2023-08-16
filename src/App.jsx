@@ -2,9 +2,9 @@ import AnimatedCursor from "react-animated-cursor";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Body from "./assets/components/body/Body";
-import AlbumArt from "./assets/components/albumart/AlbumArt";
-import Footer from "./assets/components/footer/Footer";
+import Body from "./components/body/Body";
+import AlbumArt from "./components/albumart/AlbumArt";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
