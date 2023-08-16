@@ -44,7 +44,7 @@ function Body() {
           id="bg-vid"
           src="Untitled.mp4"
           type="video/mp4"
-          autoPlay
+          // autoPlay
           loop
           muted
         />
