@@ -14,3 +14,42 @@
     font-family: 'Roboto', sans-serif;
     cursor: default !important;
   }
+
+  @media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        justify-content: flex-end;
+        }
+    }
+
+    @media only screen and (max-width: 820px) {
+      .clock {
+        display: none;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+      .main-body-div {
+        background: #000;
+        background-image: none;
+      }
+      .clock {
+        display: none;
+        }
+      .album-art-body-div {
+        display: grid;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        }
+    }
+    
+    @media (max-width: 390px) {
+      
+      .clock {
+        display: none;
+        }
+    }
+
+ 

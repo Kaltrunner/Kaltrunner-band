@@ -79,6 +79,12 @@ video {
 }
 
 @media only screen and (max-width: 480px){
+    * {
+        background-color: #000;
+    }
+      video {
+        display: none;
+      }
     .header-text { 
     font-size: 3rem;
     }
@@ -88,4 +94,4 @@ video {
   #section-about {
     padding-top: 6vh;
   }
-  }
+  }   

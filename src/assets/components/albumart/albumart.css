@@ -14,7 +14,8 @@
     letter-spacing: .15vw;
     color: #fa8072cc;
     text-align: center;
-    margin: 4rem;
+    padding: 4rem;
+    margin: 0;
 }
 
 .album-title {
@@ -23,8 +24,9 @@
     letter-spacing: .25vw;
     font-style: italic;
     font-weight: 200;
-    margin-top: 2vh;
-    margin-bottom: 6vh;
+    padding-top: 2vh;
+    padding-bottom: 6vh;
+    margin:0;
 }
 
 #art {
@@ -39,11 +41,26 @@
 }
 
 @media only screen and (max-width: 480px) {
+    .album-nav-body-div {
+        padding-top: 4vw;
+        padding-left: 4vw;
+        background-color: #000;
+    }
+    .album-art-header {
+        font-size: 3rem;
+    }
+    #nav-link {
+        font-size: 1rem;
+        margin: 0;
+    }
     .album-art-body-div {
         display: grid;
         align-items: center;
         align-content: center;
         justify-content: center;
+        padding: 0;
     }
-  
+    .album-title {
+        font-size: 1rem;
+    }
 }
