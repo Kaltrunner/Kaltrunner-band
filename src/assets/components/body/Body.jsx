@@ -12,10 +12,23 @@ function Body() {
     new Audio("Site-song.mp3").play();
   }
 
+  // useEffect(() => {
+  //   if (vidRef.current) {
+  //     vidRef.current.playbackRate = 0.25;
+  //   }
+  // }, []);
+
   useEffect(() => {
     if (vidRef.current) {
       vidRef.current.playbackRate = 0.25;
+      vidRef.current.play(); // Start playing the video when the component mounts
     }
+
+    return () => {
+      if (vidRef.current) {
+        vidRef.current.pause(); // Pause the video when the component unmounts
+      }
+    };
   }, []);
 
   return (
