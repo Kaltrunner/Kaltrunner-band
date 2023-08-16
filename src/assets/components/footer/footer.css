@@ -13,15 +13,14 @@
 
 .footer-col-1 {
     color: grey;
-    font-size: 2vw;
-    line-height: 2;
-    text-decoration: line-through;
+    font-size: 1vw;
+    line-height: 3;
 }
 
 .footer-col-text {
     color: whitesmoke;
     font-size: 1.5vw;
-    line-height: 2.5;
+    line-height: 2;
 }
 
 .row {
