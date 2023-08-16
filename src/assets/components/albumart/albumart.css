@@ -40,11 +40,27 @@
     object-fit: cover;
 }
 
+@media only screen and (max-width: 820px) {
+    .album-nav-body-div {
+        padding-top: 4vw;
+        padding-left: 4vw;
+    }
+    .album-art-body-div {
+        display: grid;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+    .row {
+        padding: 0;
+        margin: 0;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     .album-nav-body-div {
         padding-top: 4vw;
         padding-left: 4vw;
-        background-color: #000;
     }
     .album-art-header {
         font-size: 3rem;
