@@ -1,5 +1,6 @@
 import "./body.css";
 import React, { useRef, useEffect } from "react";
+import Marquee from "../marquee/Marquee";
 import Header from "../header/Header";
 import About from "../about/About";
 import Footer from "../footer/Footer";
@@ -12,21 +13,15 @@ function Body() {
     new Audio("Site-song.mp3").play();
   }
 
-  // useEffect(() => {
-  //   if (vidRef.current) {
-  //     vidRef.current.playbackRate = 0.25;
-  //   }
-  // }, []);
-
   useEffect(() => {
     if (vidRef.current) {
       vidRef.current.playbackRate = 0.25;
-      vidRef.current.play(); // Start playing the video when the component mounts
+      vidRef.current.play();
     }
 
     return () => {
       if (vidRef.current) {
-        vidRef.current.pause(); // Pause the video when the component unmounts
+        vidRef.current.pause();
       }
     };
   }, []);
@@ -35,6 +30,7 @@ function Body() {
     <>
       <ScrollToTop />
       <div className="main-body-div">
+        <Marquee />
         <Header />
 
         <div className="overlay"></div>
@@ -44,7 +40,6 @@ function Body() {
           id="bg-vid"
           src="Untitled.mp4"
           type="video/mp4"
-          // autoPlay
           loop
           muted
         />
@@ -58,7 +53,6 @@ function Body() {
       <section id="section-about">
         <About />
       </section>
-
       <Footer />
     </>
   );

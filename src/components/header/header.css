@@ -1,6 +1,6 @@
 
 .header-body-div {
-    top: 0;  
+    top: 4vw;  
     position: fixed;
     z-index: 999;
     mix-blend-mode: difference;
@@ -19,7 +19,6 @@
     font-weight: 200;
     letter-spacing: .15rem;
     margin-right: 2.5vw;
-    margin-top: 2.5vh;
     color: whitesmoke;
     padding: 0;
     cursor:  pointer !important;
@@ -49,7 +48,7 @@
   .about-under-line::before {
     content: '';
     position: absolute;
-    width: 3.5em;
+    width: 100%;
     height: 2px;
     bottom: 0;
     left: auto;
@@ -73,7 +72,7 @@
   .under-line::before {
     content: '';
     position: absolute;
-    width: 4.85em;
+    width: 100%;
     height: 2px;
     bottom: 0;
     left: auto;
@@ -98,7 +97,7 @@
   .album-under-line::before {
     content: '';
     position: absolute;
-    width: 5.9em;
+    width: 100%;
     height: 2px;
     bottom: 0;
     left: auto;

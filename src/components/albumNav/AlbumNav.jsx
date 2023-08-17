@@ -5,7 +5,7 @@ function AlbumNav() {
   return (
     <div className="album-nav-body-div">
       <Link to="/" id="nav-link" className="nav-under-line">
-        HOME
+        BACK
       </Link>
     </div>
   );
