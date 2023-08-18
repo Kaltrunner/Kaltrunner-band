@@ -19,9 +19,9 @@
 
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
-      display: flex!important;
-       flex-basis: auto;
-       justify-content: flex-end;
+      display: flex;
+      /* flex-basis: auto; */
+      justify-content: flex-end;
        }
    }
 
@@ -29,9 +29,9 @@
       .clock {
         display: none;
         }
-        #nav-bar {
+        /* #nav-bar {
           padding-top: 6vw;
-        }
+        } */
         .marquee-line {
           padding: 1vw 4vw;
         }

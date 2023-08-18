@@ -30,9 +30,10 @@
 
 .header-text {
     color: whitesmoke;
-    font-size: 10vw;
+    font-size: 11vw;
     font-weight: 400;
     letter-spacing: .15vw;
+    padding-top: 4vw;
     z-index: 99;
     mix-blend-mode: difference;
 }
@@ -68,14 +69,14 @@ video {
 
 .footer-div {
     position:absolute;
-   bottom:0;
-   left: 0;
-   width:100%;
+    bottom:0;
+    left: 0;
+    width:100%;
 }
 
 #section-about {
     position: relative;
-    padding-top: 12vh;
+    padding-top: 14vh;
 }
 
 @media only screen and (max-width: 480px){

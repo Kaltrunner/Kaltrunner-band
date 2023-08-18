@@ -1,17 +1,18 @@
 
 .header-body-div {
-    top: 4vw;  
+    top: 6vw;  
     position: fixed;
-    z-index: 999;
+    z-index: 666;
     mix-blend-mode: difference;
 }
 
 #nav-bar {
     width: 100vw;
-    height: 6rem;
+    /* height: 6vw; */
     background-color: transparent;
     display: flex;
-    justify-content: flex-end
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #nav-links {
@@ -115,4 +116,26 @@
 
 .clock {
   margin-left: 2vw;
+}
+
+@media only screen and (max-width: 992px) {
+  .header-body-div {
+    background: transparent;
+  }
+  #nav-bar {
+    top: 8vw;
+  }
+  #nav-links {
+    margin: 2vw;
+    font-size: 1rem;
+  }
+  .album-under-line::before {
+    display: none;
+  }
+  .under-line::before {
+    display: none;
+  }
+  .about-under-line::before {
+    display: none;
+  }
 }
