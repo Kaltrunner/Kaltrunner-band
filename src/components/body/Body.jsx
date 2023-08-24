@@ -48,15 +48,9 @@ function Body() {
 
         <div className="overlay"></div>
 
-        <video
-          ref={vidRef}
-          id="bg-vid"
-          src="Untitled.mp4"
-          type="video/mp4"
-          autoPlay
-          loop
-          muted
-        />
+        <video ref={vidRef} id="bg-vid" autoPlay loop muted>
+          <source src="Untitled.mp4" type="video/mp4" />
+        </video>
         <div className="body-text-div">
           <h1 className="header-text">KALTRUNNER</h1>
           <button className="play-button" onClick={togglePlayback}>
