@@ -22,7 +22,7 @@ function Body() {
   useEffect(() => {
     if (vidRef.current) {
       vidRef.current.playbackRate = 0.25;
-      vidRef.current.play();
+      // vidRef.current.play();
     }
 
     audioRef.current = new Audio("Site-song.mp3");
@@ -31,9 +31,9 @@ function Body() {
     });
 
     return () => {
-      if (vidRef.current) {
-        vidRef.current.pause();
-      }
+      // if (vidRef.current) {
+      //   vidRef.current.pause();
+      // }
       if (audioRef.current) {
         audioRef.current.pause();
       }
