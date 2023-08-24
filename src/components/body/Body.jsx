@@ -4,7 +4,6 @@ import Marquee from "../marquee/Marquee";
 import Header from "../header/Header";
 import About from "../about/About";
 import Footer from "../footer/Footer";
-import { ScrollToTop } from "react-router-scroll-to-top";
 
 function Body() {
   const vidRef = useRef(null);
@@ -31,13 +30,6 @@ function Body() {
       setIsPlaying(false);
     });
 
-    // Check if the music should be playing based on local storage
-    // const storedIsPlaying = localStorage.getItem("isMusicPlaying");
-    // if (storedIsPlaying === "true") {
-    //   audioRef.current.play();
-    //   setIsPlaying(true);
-    // }
-
     return () => {
       if (vidRef.current) {
         vidRef.current.pause();
@@ -48,13 +40,8 @@ function Body() {
     };
   }, []);
 
-  // useEffect(() => {
-  //   localStorage.setItem("isMusicPlaying", isPlaying.toString());
-  // }, [isPlaying]);
-
   return (
     <>
-      <ScrollToTop />
       <div className="main-body-div">
         <Marquee />
         <Header />

@@ -31,7 +31,7 @@
       }
    }
 
-   @media only screen and (max-width: 844px) {
+   @media only screen and (min-width: 844px) and (max-width: 844px) {
     .body-text-div {
       margin-top: 25%;
     }
@@ -50,11 +50,6 @@
     }  
 
     @media only screen and (max-width: 480px) {
-      .main-body-div {
-        background: #000;
-        background-image: none;
-        height: 100vh;
-      }
       .clock {
         display: none;
         }

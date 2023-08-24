@@ -58,13 +58,18 @@
     background-color: transparent;
 }
 
-video {
-    width: 100%;
+#bg-vid {
+    width: 100vw;
     height: 100vh;
     object-fit: cover;
-    animation-play-state: inherit;
-    filter: blur(8px);
     position: fixed;
+    /* animation-play-state: running; */
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: blur(8px);
 }
 
 .footer-div {
@@ -80,19 +85,16 @@ video {
 }
 
 @media only screen and (max-width: 480px){
-    * {
-        background-color: #000;
-    }
-      video {
-        display: none;
+    .main-body-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100vh;
       }
     .header-text { 
-    font-size: 3rem;
+        font-size: 3rem;
     }
     .header-text-h6 {
       font-size: 1rem;
-  }
-  #section-about {
-    padding-top: 6vh;
   }
   }   

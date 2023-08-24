@@ -4,11 +4,12 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Body from "./components/body/Body";
 import AlbumArt from "./components/albumart/AlbumArt";
-import Footer from "./components/footer/Footer";
+import { ScrollToTop } from "react-router-scroll-to-top";
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <AnimatedCursor
         id="mouse"
         innerSize={0}
@@ -41,7 +42,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Body />} />
         <Route path="/AlbumArt" element={<AlbumArt />} />
-        <Route path="/Footer" element={<Footer />} />
       </Routes>
     </>
   );

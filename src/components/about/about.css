@@ -69,15 +69,15 @@
 
 @media only screen and (max-width: 820px) {
     .body-about-section {
-        margin-top: 28vh;
+        margin-top: 16vh;
         margin-bottom: 16vh;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .body-about-section {
-        margin-top: 42vh;
-        margin-bottom: 42vh;
+        margin-top: 14vh;
+        margin-bottom: 6vh;
     }
     .about-h6-text {
         font-size: 1rem;
