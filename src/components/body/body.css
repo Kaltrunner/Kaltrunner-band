@@ -63,7 +63,7 @@
     height: 100vh;
     object-fit: cover;
     position: fixed;
-    /* animation-play-state: running; */
+    animation-play-state: running;
     left: 0;
     right: 0;
     top: 0;
