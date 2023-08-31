@@ -51,8 +51,9 @@ function Body() {
         <video ref={vidRef} id="bg-vid" autoPlay loop muted>
           <source 
           // src="Untitled.mp4"
-          src="Burning_monk_mov.mp4"
+          // src="Burning_monk_mov.mp4"
           // src="https://i.pinimg.com/originals/37/13/e8/3713e8766e1a96a0a1aa581f49f0c91a.gif"
+          src="https://i.makeagif.com/media/6-02-2015/nvgyvP.mp4"
            type="video/mp4" />
         </video>
         <div className="body-text-div">
