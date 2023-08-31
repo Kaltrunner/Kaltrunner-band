@@ -49,7 +49,11 @@ function Body() {
         <div className="overlay"></div>
 
         <video ref={vidRef} id="bg-vid" autoPlay loop muted>
-          <source src="Untitled.mp4" type="video/mp4" />
+          <source 
+          // src="Untitled.mp4"
+          src="Burning_monk_mov.mp4"
+          // src="https://i.pinimg.com/originals/37/13/e8/3713e8766e1a96a0a1aa581f49f0c91a.gif"
+           type="video/mp4" />
         </video>
         <div className="body-text-div">
           <h1 className="header-text">KALTRUNNER</h1>
