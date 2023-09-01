@@ -17,6 +17,20 @@
     cursor: default !important;
   }
 
+  #bg-vid {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    animation-play-state: running;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: blur(8px);
+}
+
 
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
