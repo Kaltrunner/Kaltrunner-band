@@ -1,15 +1,28 @@
 import "./body.css";
-import React, { useRef, useEffect, useState } from "react";
+import { useRef, useEffect, useState } from "react";
 import Marquee from "../marquee/Marquee";
 import Header from "../header/Header";
 import About from "../about/About";
 import Footer from "../footer/Footer";
 
 function Body() {
-  const vidRef = useRef(null);
   const audioRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
 
+  
+  useEffect(() => {
+    audioRef.current = new Audio("Site-song.mp3");
+    audioRef.current.addEventListener("ended", () => {
+      setIsPlaying(false);
+    });
+    
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+      }
+    };
+  }, []);
+  
   function togglePlayback() {
     if (isPlaying) {
       audioRef.current.pause();
@@ -19,47 +32,12 @@ function Body() {
     setIsPlaying(!isPlaying);
   }
 
-  useEffect(() => {
-    if (vidRef.current) {
-      vidRef.current.playbackRate = 0.25;
-      // vidRef.current.play();
-    }
-
-    audioRef.current = new Audio("Site-song.mp3");
-    audioRef.current.addEventListener("ended", () => {
-      setIsPlaying(false);
-    });
-
-    return () => {
-      // if (vidRef.current) {
-      //   vidRef.current.pause();
-      // }
-      if (audioRef.current) {
-        audioRef.current.pause();
-      }
-    };
-  }, []);
-
   return (
     <>
       <div className="main-body-div">
         <Marquee />
         <Header />
-
         <div className="overlay"></div>
-
-        <video
-          ref={vidRef}
-          id="bg-vid"
-          autoPlay
-          loop
-          muted
-          // src="Untitled.mp4"
-          // src="Burning_monk_mov.mp4"
-          // src="https://i.pinimg.com/originals/37/13/e8/3713e8766e1a96a0a1aa581f49f0c91a.gif"
-          src="https://i.makeagif.com/media/6-02-2015/nvgyvP.mp4"
-          type="video/mp4"
-        ></video>
         <div className="body-text-div">
           <h1 className="header-text">KALTRUNNER</h1>
           <button className="play-button" onClick={togglePlayback}>
