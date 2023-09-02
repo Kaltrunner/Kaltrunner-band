@@ -50,9 +50,9 @@ function About() {
             <br />
             <h6 className="about-h6-text">WHAT IS MY APPROACH ?</h6>
             <br />
-            Breaking free from traditional structures. Through an array of analog
-            instruments, he explores the primal essence of sound, crafting
-            intricate audio tapestries. This innovative approach pushes
+            Breaking free from traditional structures. Through an array of
+            analog instruments, he explores the primal essence of sound,
+            crafting intricate audio tapestries. This innovative approach pushes
             boundaries and immerses listeners in an otherworldly realm, evoking
             the enigmatic melodies and ethereal atmospheres of outer space.
           </div>
@@ -68,13 +68,12 @@ function About() {
             <h6 className="about-h6-text">WHY THIS SOUND ?</h6>
             <br />
             The choice of this unique and experimental sound by KALTRUNNER
-            arises from a deep passion for sound exploration. By wielding
-            mostly analog equipment, KALTRUNNER fearlessly traverses the
-            boundaries between noise and ambient sounds, crafting
-            compositions that defy traditional musical structures. By embracing
-            the raw power of sound itself, he creates intricate and
-            multi-layered soundscapes that elicit profound emotional
-            responses.
+            arises from a deep passion for sound exploration. By wielding mostly
+            analog equipment, KALTRUNNER fearlessly traverses the boundaries
+            between noise and ambient sounds, crafting compositions that defy
+            traditional musical structures. By embracing the raw power of sound
+            itself, he creates intricate and multi-layered soundscapes that
+            elicit profound emotional responses.
           </div>
         </div>
       </div>

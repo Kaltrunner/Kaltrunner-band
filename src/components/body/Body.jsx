@@ -9,20 +9,19 @@ function Body() {
   const audioRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
 
-  
   useEffect(() => {
     audioRef.current = new Audio("Site-song.mp3");
     audioRef.current.addEventListener("ended", () => {
       setIsPlaying(false);
     });
-    
+
     return () => {
       if (audioRef.current) {
         audioRef.current.pause();
       }
     };
   }, []);
-  
+
   function togglePlayback() {
     if (isPlaying) {
       audioRef.current.pause();

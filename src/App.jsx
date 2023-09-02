@@ -1,6 +1,6 @@
 import AnimatedCursor from "react-animated-cursor";
 import { Routes, Route } from "react-router-dom";
-import { useRef } from 'react'
+import { useRef } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Body from "./components/body/Body";
@@ -8,11 +8,11 @@ import AlbumArt from "./components/albumart/AlbumArt";
 import { ScrollToTop } from "react-router-scroll-to-top";
 
 function App() {
-  const vidRef = useRef()
+  const vidRef = useRef();
 
   const setPlaybockRate = () => {
-    vidRef.current.playbackRate = .25
-  }
+    vidRef.current.playbackRate = 0.2;
+  };
 
   return (
     <>
@@ -24,7 +24,11 @@ function App() {
         muted
         onCanPlay={setPlaybockRate}
       >
-        <source src="https://i.makeagif.com/media/6-02-2015/nvgyvP.mp4" type="video/mp4" />
+        <source
+          src="https://i.makeagif.com/media/6-02-2015/nvgyvP.mp4"
+          // src="Untitled.mp4"
+          type="video/mp4"
+        />
         Your browswer does not support HTML5 video.
       </video>
       <ScrollToTop />

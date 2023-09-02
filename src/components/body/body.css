@@ -16,7 +16,6 @@
     background-color: rgba(0,0,0,.85);
     z-index: 1;
     position: fixed;  
-    filter: blur(2px);
 }
 
 .body-text-div {

@@ -28,9 +28,8 @@
     top: 0;
     bottom: 0;
     z-index: -1;
-    filter: blur(8px);
+    filter: blur(12px);
 }
-
 
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
