@@ -41,7 +41,10 @@ function Body() {
           <h1 className="header-text">KALTRUNNER</h1>
           <button className="play-button" onClick={togglePlayback}>
             <h6 className="header-text-h6">
-              {isPlaying ? "(– STOP)" : "(↗ PLAY)"}
+              <i class="fa-solid fa-arrow-up-right">
+                {" "}
+                {isPlaying ? "(– STOP)" : "(↗ PLAY)"}
+              </i>
             </h6>
           </button>
         </div>
