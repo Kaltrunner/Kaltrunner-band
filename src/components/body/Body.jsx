@@ -4,6 +4,7 @@ import Marquee from "../marquee/Marquee";
 import Header from "../header/Header";
 import About from "../about/About";
 import Footer from "../footer/Footer";
+import { Waveform } from "@uiball/loaders";
 
 function Body() {
   const audioRef = useRef(null);
@@ -33,6 +34,7 @@ function Body() {
 
   return (
     <>
+      <Waveform size={40} lineWeight={3.5} speed={1} color="black" />
       <div className="main-body-div">
         <Marquee />
         <Header />
@@ -41,10 +43,20 @@ function Body() {
           <h1 className="header-text">KALTRUNNER</h1>
           <button className="play-button" onClick={togglePlayback}>
             <h6 className="header-text-h6">
-              <i class="fa-solid fa-arrow-up-right">
-                {" "}
-                {isPlaying ? "(– STOP)" : "(↗ PLAY)"}
-              </i>
+              {isPlaying ? (
+                <div className="stop-div">
+                  <div class="waveform">
+                    <div>(</div>
+                    <div class="waveform__bar"></div>
+                    <div class="waveform__bar"></div>
+                    <div class="waveform__bar"></div>
+                    <div class="waveform__bar"></div>
+                  </div>
+                  <span className="header-text-h6">STOP)</span>
+                </div>
+              ) : (
+                "(– PLAY)"
+              )}
             </h6>
           </button>
         </div>
