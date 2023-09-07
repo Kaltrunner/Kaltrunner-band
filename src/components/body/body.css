@@ -88,7 +88,7 @@
 }
 
 .waveform {
-    --uib-size: 2vw;
+    --uib-size: 1em;
     --uib-speed: 1.5s;
     --uib-color: whitesmoke;
     --uib-line-weight: 1px;
@@ -99,7 +99,7 @@
     justify-content: space-between;
     width: var(--uib-size);
     height: calc(var(--uib-size) * 0.9);
-    margin: 0 1vw 0 1vw;
+    margin: 0 0.25em 0 0;
   }
   
   .waveform__bar {
@@ -125,7 +125,7 @@
   
   .waveform__bar:nth-child(4) {
     animation: grow var(--uib-speed) ease-in-out
-    calc(var(--uib-speed) * 0.25) infinite;
+    calc(var(--uib-speed) * -0.25) infinite;
   }
 
   .waveform__bar:nth-child(5) {
