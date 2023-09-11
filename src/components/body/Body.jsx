@@ -34,7 +34,7 @@ function Body() {
 
   return (
     <>
-      <Waveform size={40} lineWeight={3.5} speed={1} color="black" />
+      {/* <Waveform size={40} lineWeight={3.5} speed={1} color="black" /> */}
       <div className="main-body-div">
         <Marquee />
         <Header />
@@ -45,12 +45,12 @@ function Body() {
             <h6 className="header-text-h6">
               {isPlaying ? (
                 <div className="stop-div">
-                  <div class="waveform">
+                  <div className="waveform">
                     <div>(</div>
-                    <div class="waveform__bar"></div>
-                    <div class="waveform__bar"></div>
-                    <div class="waveform__bar"></div>
-                    <div class="waveform__bar"></div>
+                    <div className="waveform__bar"></div>
+                    <div className="waveform__bar"></div>
+                    <div className="waveform__bar"></div>
+                    <div className="waveform__bar"></div>
                   </div>
                   <span className="header-text-h6">STOP)</span>
                 </div>
