@@ -6,7 +6,7 @@ function Footer() {
       <div className="footer-body-div">
         <div className="footer-info-div">
           <div className="footer-header">
-            <h6>FOLLOW</h6>
+            <h4>FOLLOW</h4>
           </div>
           <div className="footer-link-div">
             <a
@@ -42,7 +42,7 @@ function Footer() {
         </div>
         <div className="footer-info-div">
           <div className="footer-header">
-            <h6>CONTACT</h6>
+            <h4>CONTACT</h4>
           </div>
           <div className="footer-link-div">
             <a
@@ -55,7 +55,7 @@ function Footer() {
         </div>
         <div className="footer-info-div">
           <div className="footer-header">
-            <h6>PURCHASE</h6>
+            <h4>PURCHASE</h4>
           </div>
           <div className="footer-link-div" id="last-div">
             <a
