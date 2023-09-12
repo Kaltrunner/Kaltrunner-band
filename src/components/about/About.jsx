@@ -26,9 +26,9 @@ function About() {
     <div className="body-about-section">
       <div className="container text-center">
         <div className="row">
+          <br />
           <div className="col- hidden" id="col-80">
             <h6 className="about-h6-text">WHO IS KALTRUNNER ?</h6>
-            <br />
             KALTRUNNER, the artistic alias of noise producer Erik Russell, who
             is an experimental musician who delves into the realm of sonic
             exploration. Armed with an array of analog equipment such as drones,
@@ -47,9 +47,7 @@ function About() {
             className="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0 hidden"
             id="col-40"
           >
-            <br />
-            <h6 className="about-h6-text">WHAT IS MY APPROACH ?</h6>
-            <br />
+            <h6 className="about-h6-text">WHY THIS APPROACH ?</h6>
             Breaking free from traditional structures. Through an array of
             analog instruments, he explores the primal essence of sound,
             crafting intricate audio tapestries. This innovative approach pushes
@@ -64,9 +62,7 @@ function About() {
             className="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0 bottom hidden"
             id="col-40"
           >
-            <br />
             <h6 className="about-h6-text">WHY THIS SOUND ?</h6>
-            <br />
             The choice of this unique and experimental sound by KALTRUNNER
             arises from a deep passion for sound exploration. By wielding mostly
             analog equipment, KALTRUNNER fearlessly traverses the boundaries

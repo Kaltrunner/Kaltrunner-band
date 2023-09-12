@@ -26,7 +26,6 @@ function App() {
       >
         <source
           src="https://i.makeagif.com/media/6-02-2015/nvgyvP.mp4"
-          // src="Untitled.mp4"
           type="video/mp4"
         />
         Your browswer does not support HTML5 video.
@@ -41,7 +40,7 @@ function App() {
         innerScale={0.5}
         outerScale={0.5}
         hasBlendMode={true}
-        trailingSpeed={20}
+        trailingSpeed={14}
         filter={true}
         outerStyle={{
           mixBlendMode: "difference",

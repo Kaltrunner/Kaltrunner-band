@@ -10,7 +10,7 @@ function Footer() {
           </div>
           <div className="footer-link-div">
             <a
-              id="footer-link"
+              className="footer-link"
               target="_blank"
               rel="noreferrer"
               href="https://open.spotify.com/artist/55PSX5vztaOftFhmVG3Q2D"
@@ -20,7 +20,7 @@ function Footer() {
           </div>
           <div className="footer-link-div">
             <a
-              id="footer-link"
+              className="footer-link"
               target="_blank"
               rel="noreferrer"
               href="https://kaltrunner.bandcamp.com/"
@@ -31,7 +31,7 @@ function Footer() {
           <div className="footer-link-div">
             {" "}
             <a
-              id="footer-link"
+              className="footer-link"
               target="_blank"
               rel="noreferrer"
               href="https://www.instagram.com/kaltrunner/?hl=en"
@@ -46,8 +46,7 @@ function Footer() {
           </div>
           <div className="footer-link-div">
             <a
-              id="footer-link"
-              className="nav-link"
+              className="footer-link nav-link"
               href="mailto:kaltrunnerband@gmail.com?subject=Hello!"
             >
               KALTRUNNERBAND@GMAIL.COM
@@ -60,9 +59,8 @@ function Footer() {
           </div>
           <div className="footer-link-div" id="last-div">
             <a
-              id="footer-link"
+              className="footer-link nav-link"
               target="_blank"
-              className="nav-link"
               href="https://www.aurisapothecary.org/shop/kaltrunner-dirteater-ii/"
             >
               AURISAPOTHECARY.ORG
@@ -70,8 +68,7 @@ function Footer() {
             <div id="copy-text">
               ©2023 –{" "}
               <a
-                className="port-link"
-                id="footer-link"
+                className="footer-link port-link"
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.erikmrussell.com/"

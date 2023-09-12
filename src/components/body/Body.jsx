@@ -42,7 +42,7 @@ function Body() {
         <div className="body-text-div">
           <h1 className="header-text">KALTRUNNER</h1>
           <button className="play-button" onClick={togglePlayback}>
-            <h6 className="header-text-h6">
+            <h2 className="header-text-h6">
               {isPlaying ? (
                 <div className="stop-div">
                   <div className="waveform">
@@ -57,7 +57,7 @@ function Body() {
               ) : (
                 "(– PLAY)"
               )}
-            </h6>
+            </h2>
           </button>
         </div>
       </div>

@@ -19,17 +19,17 @@
 .footer-header h6 {
     color: gray;
     font-size: .75em;
-    line-height: 3;
+    /* line-height: 3; */
 }
 
-#footer-link {
+.footer-link {
     text-decoration: none;
     color: whitesmoke;
     font-size: 1.25em;
     line-height: 2;
 }
 
-#footer-link:hover {
+.footer-link:hover {
     color: grey;
     transition: all ease-in-out .25s;
     cursor: pointer !important;
