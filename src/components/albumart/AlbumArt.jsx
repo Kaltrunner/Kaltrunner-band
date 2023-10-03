@@ -15,8 +15,8 @@ function AlbumArt() {
       <Container>
         <Row>
           <Col md={3}>
-            <img id="art" src="" alt="" />
-            <h6 className="album-title">COMING SOON...</h6>
+            <img id="art" src="https://f4.bcbits.com/img/a3433682787_2.jpg" alt="" />
+            <h6 className="album-title">Eye of God – 11/13/2023</h6>
           </Col>
           <Col md={{ span: 4, offset: 4 }}>
             <img
