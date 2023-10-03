@@ -32,15 +32,6 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link under-line"
-                  id="nav-links"
-                  href="mailto:kaltrunnerband@gmail.com?subject=Hello!"
-                >
-                  CONTACT
-                </a>
-              </li>
-              <li className="nav-item">
                 <Link
                   to="/AlbumArt"
                   className="nav-link album-under-line"
@@ -49,6 +40,15 @@ function Header() {
                 >
                   ALBUM ART
                 </Link>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link under-line"
+                  id="nav-links"
+                  href="mailto:kaltrunnerband@gmail.com?subject=Hello!"
+                >
+                  CONTACT
+                </a>
               </li>
               <li className="nav-item clock" id="nav-links">
                 <Clock />
