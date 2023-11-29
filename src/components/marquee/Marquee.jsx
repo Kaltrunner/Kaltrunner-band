@@ -4,16 +4,16 @@ function Marquee() {
   return (
     <div className="marquee">
       <div className="marquee-line">
-        NEW EP <span className="highlight">"Eye of God"</span> OUT NOW!
+        NEW SINGLE <span className="highlight">"Plague"</span> 12/12/23
       </div>
       <div className="marquee-line">
-        NEW EP <span className="highlight">"Eye of God"</span> OUT NOW!
+        NEW SINGLE <span className="highlight">"Plague"</span> 12/12/23
       </div>
       <div className="marquee-line">
-        NEW EP <span className="highlight">"Eye of God"</span> OUT NOW!
+        NEW SINGLE <span className="highlight">"Plague"</span> 12/12/23
       </div>
       <div className="marquee-line">
-        NEW EP <span className="highlight">"Eye of God"</span> OUT NOW!
+        NEW SINGLE <span className="highlight">"Plague"</span> 12/12/23
       </div>
     </div>
   );
