@@ -24,7 +24,7 @@ function AlbumArt() {
               src="https://f4.bcbits.com/img/a1098159222_16.jpg"
               alt=""
             />
-            <h6 className="album-title">Coming Soon...</h6>
+            <h6 className="album-title">Plague – 12/12/23</h6>
           </Col>
         </Row>
         <Row>
