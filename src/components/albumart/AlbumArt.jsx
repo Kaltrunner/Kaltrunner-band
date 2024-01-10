@@ -13,10 +13,25 @@ function AlbumArt() {
       <h1 className="album-art-header">ALBUM ART</h1>
 
       <Container>
-        <Row>
+      <Row>
           <Col md={3}>
             <img id="art" src="" alt="" />
             <h6 className="album-title"></h6>
+          </Col>
+          <Col md={{ span: 4, offset: 4 }}>
+            <img
+              id="art"
+              src=""
+              alt=""
+            />
+            <h6 className="album-title"></h6>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={3}>
+            <img id="art" src="" alt="" />
+            <h6 className="album-title">B-sides Vol. 1 – COMING SOON</h6>
+            <h6 className="album-title">B-sides Vol. 2 – COMING SOON</h6>
           </Col>
           <Col md={{ span: 4, offset: 4 }}>
             <img
