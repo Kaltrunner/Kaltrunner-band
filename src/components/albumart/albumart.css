@@ -1,11 +1,27 @@
 
 .album-art-body-div {
     width: 100%;
-    background-color: #101010;
+    /* background-color: #101010; */
+    /* background-color: rgba(0,0,0,.85); */
     padding: 6vw;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+}
+
+.album-overlay {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.85);
+    position: fixed;  
+}
+
+.album-text {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    
 }
 
 .album-art-header {
@@ -14,15 +30,27 @@
     letter-spacing: .15vw;
     color: #fa8072cc;
     text-align: center;
-    padding: 4rem;
     margin: 0;
+    /* margin-top: 10rem; */
+}
+
+.row-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.col {
+    /* width: auto; */
+    max-width: 22rem;
+    margin: auto;
 }
 
 .album-title {
     color: whitesmoke;
     font-size: 1.15vw;
     letter-spacing: .25vw;
-    font-style: italic;
     font-weight: 200;
     padding-top: 2vh;
     padding-bottom: 6vh;

@@ -1,5 +1,5 @@
 .album-nav-body-div {
-    top: 0;  
+    top: 0; 
 }
 
 #nav-link {
@@ -11,7 +11,7 @@
   margin:0;
   transform: rotate(90deg) !important;
   cursor: pointer !important;
-  letter-spacing: .15vw;   
+  letter-spacing: .15vw;
 }
 
 .nav-under-line {
