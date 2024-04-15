@@ -1,10 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
-import { BrowserRouter } from "react-router-dom";
-
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba66b8fac7e9cd9c614e3fef76bbe26ba67c515092a2b495899196e530288131
+size 261
