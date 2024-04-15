@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ceec705f66e07ceb4f04b187023444c3b315109e219f1c3181aa80853c2e6f16
-size 722
+import "./marquee.css";
+
+function Marquee() {
+  return (
+    <div className="marquee">
+      <div className="marquee-line">
+        NEW ALBUM(S) <span className="highlight">"B-Sides Vol. 1 & 2"</span> COMING
+        SOON!
+      </div>
+      <div className="marquee-line">
+        NEW ALBUM(S) <span className="highlight">"B-Sides Vol. 1 & 2"</span> COMING
+        SOON!
+      </div>
+      <div className="marquee-line">
+        NEW ALBUM(S) <span className="highlight">"B-Sides Vol. 1 & 2"</span> COMING
+        SOON!
+      </div>
+      <div className="marquee-line">
+        NEW ALBUM(S) <span className="highlight">"B-Sides Vol. 1 & 2"</span> COMING
+        SOON!
+      </div>
+    </div>
+  );
+}
+
+export default Marquee;

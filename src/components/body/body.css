@@ -1,3 +1,196 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f1c35bc513fb8e0c11e795d2e5990d5a4813c091157ea9631c94c8966ade1430
-size 3488
+.main-body-div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.85);
+    z-index: 1;
+    position: fixed;  
+}
+
+.body-text-div {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.header-text {
+    color: whitesmoke;
+    font-size: 11vw;
+    font-weight: 400;
+    padding-top: 4vw;
+    z-index: 99;
+    mix-blend-mode: difference;
+}
+
+.header-text-h6 {
+    color: whitesmoke;
+    font-size: 2.5vw;
+    font-weight: 200;
+    z-index: 99;
+    mix-blend-mode: difference;
+    padding: 0;
+    cursor: pointer;
+    margin: 0;
+}
+
+.play-button {
+    text-align: center;
+    z-index: 99;
+    border: none;
+    margin-left: 65%;
+    background-color: transparent;
+}
+
+.video-div {
+  z-index: 99;
+  position: relative;
+  padding: 4vw;
+}
+
+.kaltVideo {
+  width: 100%;
+}
+
+.video-text {
+  color: whitesmoke;
+  font-size: 1.15vw;
+  font-weight: 200;
+  width: 45%;
+}
+
+#video-link {
+  cursor: pointer !important;
+  text-decoration: none;
+  color: grey;
+  font-weight: 300;
+  transition: all ease-in-out .25s;
+}
+
+#video-link:hover {
+  color: grey;
+  transition: all ease-in-out .25s;
+}
+
+#section-about {
+    position: relative;
+    padding-top: 14vh;
+}
+
+.video-under-line {
+  color: grey;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+}
+.video-under-line::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: auto;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: all .35s ease-in-out;
+}
+.video-under-line:hover::before {
+  background-color: grey;
+  transform-origin: left;
+  transform: scaleX(1);
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px){
+    .main-body-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100vh;
+    }
+
+    .header-text { 
+        font-size: 3rem;
+    }
+
+    .header-text-h6 {
+        font-size: 1rem;
+    }
+}
+
+.stop-div {
+    display: flex;
+    align-items: center;
+}
+
+.waveform {
+    --uib-size: 1em;
+    --uib-speed: 1.5s;
+    --uib-color: whitesmoke;
+    --uib-line-weight: 1px;
+  
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: var(--uib-size);
+    height: calc(var(--uib-size) * 0.9);
+    margin: 0 0.25em 0 0;
+  }
+  
+  .waveform__bar {
+    width: var(--uib-line-weight);
+    height: 100%;
+    background-color: var(--uib-color);
+  }
+  
+  .waveform__bar:nth-child(1) {
+    animation: grow var(--uib-speed) ease-in-out
+      calc(var(--uib-speed) * -0.45) infinite;
+  }
+  
+  .waveform__bar:nth-child(2) {
+    animation: grow var(--uib-speed) ease-in-out
+      calc(var(--uib-speed) * -0.3) infinite;
+  }
+  
+  .waveform__bar:nth-child(3) {
+    animation: grow var(--uib-speed) ease-in-out
+      calc(var(--uib-speed) * -0.15) infinite;
+  }
+  
+  .waveform__bar:nth-child(4) {
+    animation: grow var(--uib-speed) ease-in-out
+    calc(var(--uib-speed) * -0.25) infinite;
+  }
+
+  .waveform__bar:nth-child(5) {
+    animation: grow var(--uib-speed) ease-in-out infinite;
+  }
+  
+  @keyframes grow {
+    0%,
+    100% {
+      transform: scaleY(0.1);
+    }
+  
+    50% {
+      transform: scaleY(1);
+    }
+  }  

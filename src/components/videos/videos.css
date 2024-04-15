@@ -1,3 +1,50 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8dadc5b78b6c5a64340e5c33973d73397a06f5b251ef9f93fa049ea3756fb086
-size 806
+.videos-body-div {
+    width: 100%;
+    padding: 6vw;
+    margin: 0 auto;  
+}
+
+.videos-overlay {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.85);
+    position: fixed;  
+}
+
+.videos-content-div {
+    position: relative;
+    left: 0;
+    width: 100%;
+}
+
+.videos-header {
+    font-size: 10vw;
+    font-weight: 400;
+    color: #fa8072cc;
+    text-align: center;
+    margin: 0;
+}
+
+.video-text {
+    font-size: 1.25vw;
+    font-weight: 200;
+}
+
+#peter-link {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    font-size: 1.25vw;
+    font-weight: 200;
+    border-bottom: 1px solid whitesmoke;
+    transition: all ease-in-out .35s;
+  }
+
+  #peter-link:hover {
+    color: grey;
+    border: none;
+    cursor: pointer !important;
+  }

@@ -1,3 +1,71 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3087539e9d0fc70827cc5e26bf64b2f30477a62ac4ea9f2d5e7b2257f783622c
-size 1140
+.body-about-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.about-h6-text {
+    color: gray;
+    font-size: 1.25vw;
+    line-height: 4;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
+}
+
+#col-80 {
+    text-align: left;
+    color: whitesmoke;
+    font-size: 3vw;
+    line-height: 1.25;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    font-weight: 300;
+    padding: 0;
+}
+
+#col-40 {
+    color: aliceblue;
+    text-align: left;
+    font-size: 1.75vw;
+    line-height: 1.25;
+    font-weight: 300;
+    margin-bottom: 5rem;
+    padding: 0;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(4px);
+    transition: all .75s linear;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+}
+
+
+@media only screen and (max-width: 480px) {
+    .body-about-section {
+        margin-top: 5rem;
+    }
+    .about-h6-text {
+        font-size: 1rem;
+    }
+    #col-80 {
+        font-size: 1.5rem;
+    }
+    #col-40 {
+        font-size: 1rem;
+    }
+    .hidden {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
