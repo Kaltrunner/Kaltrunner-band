@@ -21,7 +21,7 @@ function AlbumArt() {
               <img id="art" src="" alt="" />
               <h6 className="album-title"></h6>
             </Col>
-            <Col md={{ span: 4, offset: 4 }}>
+            <Col>
               <img id="art" src="https://f4.bcbits.com/img/a3319275606_2.jpg" alt="" />
               <h6 className="album-title">B-sides Vol. 2 </h6>
             </Col>
