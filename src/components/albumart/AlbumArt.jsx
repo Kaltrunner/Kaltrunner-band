@@ -23,13 +23,13 @@ function AlbumArt() {
             </Col>
             <Col>
               <img id="art" src="https://f4.bcbits.com/img/a3319275606_2.jpg" alt="" />
-              <h6 className="album-title">B-sides Vol. 2 </h6>
+              <h6 className="album-title">B-sides Vol. 2 – 4/20/24</h6>
             </Col>
           </Row>
           <Row>
             <Col>
               <img id="art" src="https://f4.bcbits.com/img/a0533061807_2.jpg" alt="" />
-              <h6 className="album-title">B-sides Vol. 1 </h6>
+              <h6 className="album-title">B-sides Vol. 1 – 4/20/24</h6>
             </Col>
             <Col>
               <img
