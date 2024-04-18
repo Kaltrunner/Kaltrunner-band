@@ -22,15 +22,14 @@ function AlbumArt() {
               <h6 className="album-title"></h6>
             </Col>
             <Col md={{ span: 4, offset: 4 }}>
-              <img id="art" src="" alt="" />
-              <h6 className="album-title"></h6>
+              <img id="art" src="https://f4.bcbits.com/img/a3319275606_2.jpg" alt="" />
+              <h6 className="album-title">B-sides Vol. 2 </h6>
             </Col>
           </Row>
           <Row>
             <Col>
-              <img id="art" src="" alt="" />
-              <h6 className="album-title">B-sides Vol. 1 – COMING SOON</h6>
-              <h6 className="album-title">B-sides Vol. 2 – COMING SOON</h6>
+              <img id="art" src="https://f4.bcbits.com/img/a0533061807_2.jpg" alt="" />
+              <h6 className="album-title">B-sides Vol. 1 </h6>
             </Col>
             <Col>
               <img
