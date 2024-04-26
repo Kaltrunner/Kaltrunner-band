@@ -65,7 +65,7 @@ function Body() {
       <div className="video-div">
         <video className="kaltVideo" autoPlay loop muted>
           <source
-            src="/src/assets/Kaltrunner-intruder-Clip.mp4"
+            src="/src/assets/KALTRUNNER-intruder-Clip.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.
