@@ -62,10 +62,10 @@ function Body() {
           </button>
         </div>
       </div>
-      {/* <div className="video-div">
+      <div className="video-div">
         <video className="kaltVideo" autoPlay loop muted>
           <source
-            src="/src/assets/Kaltrunner - Draft 02.mp4"
+            src="/src/assets/Kaltrunner-intruder-Clip.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.
@@ -76,7 +76,7 @@ function Body() {
             full <span>&#8599;</span>
           </Link>{" "}
         </p>
-      </div> */}
+      </div>
       <section id="section-about">
         <About />
       </section>
