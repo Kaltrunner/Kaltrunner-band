@@ -6,6 +6,7 @@ import Header from "../header/Header";
 import About from "../about/About";
 import Footer from "../footer/Footer";
 import { Waveform } from "@uiball/loaders";
+import videoFile from "/src/assets/KALTRUNNER-intuder-Clip.mp4";
 
 function Body() {
   const audioRef = useRef(null);
@@ -65,7 +66,7 @@ function Body() {
       <div className="video-div">
         <video className="kaltVideo" autoPlay loop muted>
           <source
-            src="/src/assets/KALTRUNNER-intruder-Clip.mp4"
+            src={videoFile}
             type="video/mp4"
           />
           Your browser does not support the video tag.
