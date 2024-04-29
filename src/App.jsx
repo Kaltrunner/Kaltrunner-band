@@ -59,6 +59,7 @@ function App() {
           "textarea",
           "button",
           ".link",
+          "iframe",
         ]}
       />
       <Routes>
