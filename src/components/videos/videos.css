@@ -28,7 +28,8 @@
 }
 
 .video-div {
-    width: 100%;
+    width: 80vw;
+    align-items: center;
 }
 
 .video-text {

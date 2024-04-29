@@ -7,7 +7,7 @@ function Videos() {
       <div className="videos-overlay"></div>
       <AlbumNav />
       <div className="videos-content-div">
-        <h1 className="videos-header">Audio / Visual<br/> (Coming Soon)</h1>
+        <h1 className="videos-header">Audio / Visual</h1>
         <div className="video-div">
         <iframe src="https://www.youtube.com/embed/02dTcTkEcfg?si=qd5rewojVee9K8zL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           {/* <video className="kaltVideo" controls>
