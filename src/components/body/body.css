@@ -86,6 +86,7 @@
 #video-link:hover {
   color: grey;
   transition: all ease-in-out .25s;
+  cursor: pointer !important;
 }
 
 #section-about {
