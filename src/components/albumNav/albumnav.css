@@ -35,4 +35,5 @@
     transform-origin: left;
     transform: scaleX(1);
     text-align: center;
+    cursor: pointer !important;
   }
