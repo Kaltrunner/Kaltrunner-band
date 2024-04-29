@@ -65,13 +65,14 @@ function Body() {
       <div className="video-div">
         <video className="kaltVideo" autoPlay loop muted>
           <source
-            src="/KALTRUNNER-Intruder-Clip.mp4"
+            // src="/KALTRUNNER-Intruder-Clip.mp4"
+            src="/KALTRUNNER-Clip-V2.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.
         </video>
         <p className="video-text">
-          "Indruder" by: KALTRUNNER & Peter Russell • 2024 <br /> View in{" "}
+          "Indruder" – KALTRUNNER & Peter Russell • 2024 <br /> View in{" "}
           <Link id="video-link" className="video-under-line" to="/Videos">
             full <span>&#8599;</span>
           </Link>{" "}
