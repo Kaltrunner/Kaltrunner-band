@@ -14,7 +14,7 @@
 
   body {
     margin: 0 auto;
-    cursor: default;
+    cursor: default !important;
   }
 
   #bg-vid {
