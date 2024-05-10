@@ -62,7 +62,7 @@ function Body() {
           </button>
         </div>
       </div>
-      <div className="video-div">
+      <div className="video-div" id="video-preview">
         <video className="kaltVideo" autoPlay loop muted>
           <source
             src="/KALTRUNNER-Clip-V2.mp4"

@@ -79,7 +79,7 @@
         .marquee-line {
           padding: 1vw 4vw;
         }
-        .video-div {
+        #video-preview {
           display: none;
         }
     }
