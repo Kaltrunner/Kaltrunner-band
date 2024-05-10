@@ -79,6 +79,9 @@
         .marquee-line {
           padding: 1vw 4vw;
         }
+        .video-div {
+          display: none;
+        }
     }
     
     @media (max-width: 390px) {

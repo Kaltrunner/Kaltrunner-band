@@ -65,7 +65,6 @@ function Body() {
       <div className="video-div">
         <video className="kaltVideo" autoPlay loop muted>
           <source
-            // src="/KALTRUNNER-Intruder-Clip.mp4"
             src="/KALTRUNNER-Clip-V2.mp4"
             type="video/mp4"
           />
